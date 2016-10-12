@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""This module performs conditional testing."""
+
+
 EXPENSE = 14.23
 LOOKS_NICE = True
 MAX_EXPENSE = 12
