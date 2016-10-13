@@ -9,12 +9,10 @@ LONGSTR = 'short'
 
 # You code goes here
 
-story = len(MYINPUT)
+STORY = len(MYINPUT)
 
-if story > MAX_LENGTH:
-	LONGSTR = 'long'
-	
-
+if STORY > MAX_LENGTH:
+    LONGSTR = 'long'
 
 OUTPUT = 'That certainly was a {} story!'.format(LONGSTR)
 print OUTPUT

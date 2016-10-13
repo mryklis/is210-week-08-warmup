@@ -9,8 +9,8 @@ MAX_EXPENSE = 12
 GET_OUT_ALIVE = False
 
 if LOOKS_NICE and EXPENSE <= MAX_EXPENSE:
-	SACRIFICE = 'True'
+    SACRIFICE = 'True'
 elif not GET_OUT_ALIVE:
-	SACRIFICE = 'False'
+    SACRIFICE = 'False'
 
 print SACRIFICE
